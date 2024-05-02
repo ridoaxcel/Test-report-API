@@ -1,0 +1,22 @@
+{
+  "name": "belajar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@reportportal/agent-js-mocha": "^5.0.4",
+    "ajv": "^8.13.0",
+    "chai": "^5.1.0",
+    "chai-json-schema-ajv": "^5.2.4",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  }
+}
